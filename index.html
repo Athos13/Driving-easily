@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="assets/CSS/responsivo.css">
+    <title>Driving School</title>
+</head>
+<body onload="animaTextos()">
+    <section class="navegacao">
+        <nav>
+            <ul>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <main>
+        <article id="login">
+        <header class="titulo">
+            <p>Bem vindo(a) a</p>
+            <h1>Driving<br> Easily</h1>
+        </header>
+        
+
+        <form>
+            <h2>Login</h2>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" required>
+        
+            <button type="submit" id="submit">Fazer login</button>
+            </div>
+            
+            <p>Ainda não tem uma conta ?</p><a href="#">Cadastrar</a>
+        </form>
+        </article>
+    </main>
+
+    <section id="sobre">
+        <h2>Sobre</h2>
+
+        <div class="sobre-img-texto">
+            <div class="imgSobre">
+                <img src="assets/img/imgCarro.jpg" alt="foto dirigindo carro">
+            </div>
+
+            <div class="textoSobre">
+              <p>
+                "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperi
+                am, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit 
+                aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+              </p>
+
+              <p>
+                "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperi
+                am, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit 
+                aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+              </p>
+            </div> 
+        </div>
+        
+    </section>
+
+    <section id="cursos">
+        <h2>Categorias de CNH Ofertadas</h2>
+        
+        <ul class="lista-categorias">
+            <li class="categoria">
+                <h3>CNH A</h3>
+                <div>
+                    <img src="assets/img/imgMoto.jpg" alt="foto dirigindo moto">
+                </div>
+            </li>
+
+            <li class="categoria">
+                <h3>CNH B</h3>
+                <div>
+                    <img src="assets/img/imgCarro.jpg" alt="foto dirigindo carro">
+                </div>
+            </li>
+
+            <li class="categoria">
+                <h3>CNH AB</h3>
+                <div>
+                    <img src="assets/img/imgCarroMoto.jpg" alt="foto carro e moto">
+                </div>
+            </li>
+
+            <li class="categoria">
+                <h3>CNH C</h3>
+                <div>
+                    <img src="assets/img/imgCaminhão.jpg" alt="foto dirigindo caminhão">
+                </div>
+            </li>
+
+            <li class="categoria">
+                <h3>CNH D</h3>
+                <div>
+                    <img src="assets/img/imgOnibus.jpg" alt="foto ônibus">
+                </div>
+            </li>
+        </ul>
+
+        <a href="https://autopapo.uol.com.br/noticia/categorias-da-cnh-tipos-carteira-motorista/">
+            mais sobre tipos de CNH
+        </a>
+    </section>
+
+
+    <footer id="contato">
+        <h2>Fale conosco !</h2>
+        <ul>
+            <a href="mailto:" >Email</a>
+            <a href="tel:" >Tel</a>
+            <a href="#" >Whatsapp</a>
+        </ul>
+    </footer>
+
+<script src="assets/JS/script.js"></script>
+</body>
+</html>
